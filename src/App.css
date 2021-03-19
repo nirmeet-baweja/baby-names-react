@@ -1,14 +1,38 @@
 .App {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
   text-align: center;
+  padding: 2rem;
 }
 
 .App-header {
-  background-color: #282c34;
-  /* min-height: 100vh; */
+  width: 100%;
+  background-color: #93abd3;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: space-around;
+  font-size: 2rem;
+  margin: 2rem auto;
+  padding: 2rem;
   color: white;
+}
+
+.name {
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 10%;
+}
+
+.female {
+  background-color: #87ebb7;
+  color: #0f061f;
+}
+
+.male {
+  background-color: #8548f0;
+  color: #d3f3e2;
 }
