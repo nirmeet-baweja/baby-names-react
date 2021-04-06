@@ -1,17 +1,18 @@
-import React from "react";
-import BabyName from "./BabyName";
-import BabyNamesData from "./data/babyNamesData.json";
+import React, { useState } from "react";
+import Search from "./components/Search";
+import BabyNamesContainer from "./components/BabyNamesContainer";
 
+import BabyNamesData from "./data/babyNamesData.json";
 import "./App.css";
 
 function App() {
-  console.log(BabyNamesData[0]);
+  const [searchValue, setSearchValue] = useState("");
+
   return (
     <div className="App">
       <header className="App-header">Baby Names</header>
-      {BabyNamesData.map((name) => (
-        <BabyName babyName={name} />
-      ))}
+      <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+      <BabyNamesContainer namesList={BabyNamesData} searchValue={searchValue} />
     </div>
   );
 }
