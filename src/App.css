@@ -34,11 +34,26 @@
   border-radius: 5%;
 }
 
+.favourites {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 .allBabyNames {
+  width: 100%;
   margin: 2rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.sectionDivide {
+  width: 100%;
+  border: 1px solid #93abd3;
+  margin-top: 2rem;
 }
 
 .name {

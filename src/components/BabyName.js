@@ -1,9 +1,19 @@
 import React from "react";
 
-const BabyName = ({ babyName }) => {
+const BabyName = ({ nameEntry, onItemClick }) => {
   let cssClass = "";
-  babyName.sex === "f" ? (cssClass = "female") : (cssClass = "male");
-  return <span className={cssClass + " name"}>{babyName.name}</span>;
+  nameEntry.sex === "f" ? (cssClass = "female") : (cssClass = "male");
+  return (
+    <button
+      className={cssClass + " name"}
+      key={nameEntry.id}
+      onClick={() => {
+        onItemClick(nameEntry.id);
+      }}
+    >
+      {nameEntry.name}
+    </button>
+  );
 };
 
 export default BabyName;
