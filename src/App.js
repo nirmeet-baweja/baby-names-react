@@ -9,7 +9,6 @@ import "./App.css";
 
 function App() {
   const [searchValue, setSearchValue] = useState("");
-  const [gender, setGender] = useState("all");
   const [favourites, setFavourites] = useState([]);
   const [namesList, setNamesList] = useState(BabyNamesData);
 
@@ -19,12 +18,7 @@ function App() {
 
       <Search searchValue={searchValue} setSearchValue={setSearchValue} />
 
-      <GenderFilter
-        gender={gender}
-        setGender={setGender}
-        namesList={namesList}
-        setNamesList={setNamesList}
-      />
+      <GenderFilter namesList={namesList} setNamesList={setNamesList} />
 
       <Favourites
         namesList={namesList}
