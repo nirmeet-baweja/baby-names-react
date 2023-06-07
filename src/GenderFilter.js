@@ -1,12 +1,13 @@
 import React from "react";
 import BabyNamesData from "./data/babyNamesData.json";
 
-const GenderFilter = ({ namesList, setNamesList }) => {
+const GenderFilter = ({ setNamesList }) => {
   const handleGenderChange = (event) => {
-    const genderFilteredNames = BabyNamesData.filter((nameEntry) => {
-      if (event.target.value === nameEntry.sex) return nameEntry;
-      else if (event.target.value === "all") return nameEntry;
-    });
+    const genderFilteredNames = BabyNamesData.filter((nameEntry) =>
+      event.target.value === nameEntry.sex || event.target.value === "all"
+        ? nameEntry
+        : false
+    );
 
     setNamesList(genderFilteredNames);
   };
