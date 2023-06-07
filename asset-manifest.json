@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nirmeet-baweja/baby-names-react/static/css/main.88d2e8be.css",
+    "main.js": "/nirmeet-baweja/baby-names-react/static/js/main.dd4b9cf6.js",
+    "static/js/787.352a0c7c.chunk.js": "/nirmeet-baweja/baby-names-react/static/js/787.352a0c7c.chunk.js",
+    "index.html": "/nirmeet-baweja/baby-names-react/index.html",
+    "main.88d2e8be.css.map": "/nirmeet-baweja/baby-names-react/static/css/main.88d2e8be.css.map",
+    "main.dd4b9cf6.js.map": "/nirmeet-baweja/baby-names-react/static/js/main.dd4b9cf6.js.map",
+    "787.352a0c7c.chunk.js.map": "/nirmeet-baweja/baby-names-react/static/js/787.352a0c7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88d2e8be.css",
+    "static/js/main.dd4b9cf6.js"
+  ]
+}
