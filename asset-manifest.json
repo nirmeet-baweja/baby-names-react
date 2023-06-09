@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/baby-names-react/static/css/main.88d2e8be.css",
-    "main.js": "/baby-names-react/static/js/main.25e1175b.js",
+    "main.js": "/baby-names-react/static/js/main.41f72a3e.js",
     "static/js/787.352a0c7c.chunk.js": "/baby-names-react/static/js/787.352a0c7c.chunk.js",
     "index.html": "/baby-names-react/index.html",
     "main.88d2e8be.css.map": "/baby-names-react/static/css/main.88d2e8be.css.map",
-    "main.25e1175b.js.map": "/baby-names-react/static/js/main.25e1175b.js.map",
+    "main.41f72a3e.js.map": "/baby-names-react/static/js/main.41f72a3e.js.map",
     "787.352a0c7c.chunk.js.map": "/baby-names-react/static/js/787.352a0c7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88d2e8be.css",
-    "static/js/main.25e1175b.js"
+    "static/js/main.41f72a3e.js"
   ]
 }
