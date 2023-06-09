@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useLocalStorage } from "./utilities/useLocalStorage";
 import Search from "./components/Search";
 import GenderFilter from "./GenderFilter";
 import Favourites from "./components/Favourites";
@@ -9,7 +10,7 @@ import "./App.css";
 
 function App() {
   const [searchValue, setSearchValue] = useState("");
-  const [favourites, setFavourites] = useState([]);
+  const [favourites, setFavourites] = useLocalStorage("favourites", []);
   const [namesList, setNamesList] = useState(BabyNamesData);
 
   return (
